@@ -5849,7 +5849,7 @@ player.markSkill('ye_yinguo_1');
                 return event.card&&event.target.isAlive();
             },
                         content:function (){
-              trigger.effectCount++;
+              trigger.getParent().effectCount++;
             },
                         sub:true,
                     },
